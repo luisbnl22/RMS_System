@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Streamlit",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "rms_app.py",
+                "--server.port",
+                "8001"
+            ],
+            "console": "integratedTerminal", // Use the integrated terminal for input/output
+            "justMyCode": false // Set to false to debug external libraries as well
+        }
+    ]
+}
